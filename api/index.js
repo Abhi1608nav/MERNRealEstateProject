@@ -14,7 +14,7 @@ console.log("You are connected with database");
     console.log(e);
 })
 
-const __dirname = path.resolve()
+const __dirname = path.resolve();
 
 const app = express();
 app.use(express.json());
