@@ -94,7 +94,7 @@ export default function Home() {
 
 
         { /* listing results for offer,sale and rent  */}
-        <div className="max-w-[1500px] mx-auto p-3 flex flex-col gap-8 my-10">
+        <div className="max-w-[1400px] mx-auto p-3 flex flex-col gap-8 my-10">
             
             {
               offerListings && offerListings.length>0 && (
